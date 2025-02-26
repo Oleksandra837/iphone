@@ -1,0 +1,71 @@
+@media (max-width: 1024px) {
+    .color-card>img {
+        display: block;
+        max-width: 100%;
+    }
+}
+
+@media(max-width:768px){
+    .product-images>img {
+        display: block;
+        width: 70%;
+    }
+    .product-images {
+        width: 100%;
+        height: auto;
+    }
+    .order-image>img {
+        display: block;
+        max-width: 100%;
+    }
+    .order-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .order-left {
+        width: 100%;
+    }
+    .order-input {
+        width: 100%;
+    }
+
+    .footer_menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_list {
+        justify-content: center;
+    }
+
+    .footer_list>li {
+        text-align: center;
+    }
+}
+
+@media (max-width:426px){
+    .header_menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .product-header>h1 {
+        font-size: 32px;
+    }
+
+    .news-wraper{
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .color-wraper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .news-image>img {
+        display: block;
+        max-width: 100%;
+    }
+
+}
+
